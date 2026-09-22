@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+
+  --color-sky: #0ea5e9;
+  --color-sky-dark: #0369a1;
+  --color-sky-deeper: #0c4a6e;
+  --color-sky-light: #e0f2fe;
+  --color-sky-pale: #f0f9ff;
+  --color-surf: #06b6d4;
+  --color-surf-light: #cffafe;
+  --color-sand: #fef9f0;
+  --color-sand-warm: #fde68a;
+  --color-coast: #4ade80;
+  --color-ink: #0f172a;
+  --color-slate: #475569;
+  --color-muted: #94a3b8;
+  --color-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
